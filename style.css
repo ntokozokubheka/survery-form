@@ -1,0 +1,21 @@
+
+body{
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container{ 
+    
+    background-color: aliceblue;
+
+}
+
+.title{
+    border-radius: 1.2rem;
+
+}
+

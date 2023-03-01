@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+ <body> 
+    <div class="container"> 
+    <div class="title">
+    <h1 id="title"> Survey Form App</h1>
+    </div>
+ <div class="description"> 
+    <p id="description">This is a form for something</p>
+</div>
+<div class="formfields"> 
+ <form id="survey-form" >  
+  </form>
+</div>
+<div class="name-label">  <label id="name-label">Name</label> </div>
+<div class="name">
+  
+<input id="name" type="text" placeholder="Enter Name" required></input>  
+</div>
+
+<div class="email-label"><label id="email-label">Email</label></div>
+<div class="email"> 
+
+<input id="email" type="email" placeholder="Enter Email" required ></input>
+</div>
+
+<div class="number-label"><label id="number-label">Number</label></div>
+<div class="number"> 
+    
+<input id="number" type="number" min="0" max ="9" placeholder="Enter Number" required></input>
+
+<select id="dropdown" name="Select">
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+</div>
+
+<div class="radiobuttons"> 
+<input type="radio" name="1" value ="1">
+<input type="radio" name="2" value ="2">
+<input type="radio" name="1" value ="2">
+<input type="radio" name="2" value ="2">
+<input type="checkbox" value ="1">
+<input type="checkbox" value ="2">
+</div>
+<div class="textarea">
+<textarea>
+  </textarea>
+<div class="submit-label"></div>
+  <div class="submit">
+<button id="submit" type="submit">Submit </button>
+ </div>
+</div>
+</form>
+    </div>
+</body>
+</html>
